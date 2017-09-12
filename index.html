@@ -1,0 +1,25 @@
+<!--This program sorts the given input.Based on the type of Sort clicked it gives the result in sorted order. To see the result should go to Console in the browser-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bubble Sort</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href = "CSS/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class = "container">
+			<!--Inout is given from the text box and it's collected in an array -->
+			<input type="text" id="textbox">
+			<button type="button" class="btn btn-default" id = "add">Add</button>
+			<br><br>
+			<p> Click the type of sort you want:</p>
+			<button type="button" id="Bubble Sort" onclick="sort(this)">Bubble Sort</button><br>
+			<button type="button" id="Selection Sort" onclick="sort(this)">Selection Sort</button><br>
+			<button type="button" id="Insertion Sort" onclick="sort(this)">Insertion Sort</button><br>
+			<button type="button" id="Merge Sort" onclick="sort(this)">Merge Sort</button><br>
+		</div>
+		<!--script file contains the logic for mentioned sort types.-->
+		<script src= "JS/script.js"></script>
+	</body>
+</html>
